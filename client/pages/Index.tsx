@@ -28,7 +28,7 @@ export default function Index() {
           <div className="absolute bottom-20 right-10 w-96 h-96 bg-accent/10 rounded-full blur-3xl" />
         </div>
 
-        <div className="container pt-12 pb-16 md:pt-20 md:pb-32 grid lg:grid-cols-2 gap-12 items-center">
+        <div className="container pt-8 sm:pt-12 pb-12 sm:pb-16 md:pt-16 md:pb-24 lg:pt-20 lg:pb-32 grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-10 lg:gap-12 items-center justify-center">
           {/* Left content */}
           <div className="flex flex-col justify-center order-2 lg:order-1">
             <div className="inline-flex items-center gap-3 mb-8 w-fit">
