@@ -45,24 +45,24 @@ export default function Header() {
           </span>
         </Link>
 
-        <nav className="hidden md:flex items-center gap-2 lg:gap-1">
+        <nav className="hidden md:flex items-center gap-1 lg:gap-2">
           {NAV.map((n) => (
             <Link
               key={n.label}
               to={n.to}
-              className="px-4 py-2 text-sm font-semibold text-foreground/75 hover:text-accent transition-colors duration-300 relative group"
+              className="px-5 py-2.5 text-sm font-semibold text-foreground/80 hover:text-accent transition-colors duration-300 relative group"
             >
               {n.label}
-              <span className="absolute bottom-0 left-4 right-4 h-0.5 bg-accent scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />
+              <span className="absolute bottom-0 left-5 right-5 h-0.5 bg-accent scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />
             </Link>
           ))}
         </nav>
 
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-4">
           <Link
             to="/#buy"
             className={cn(
-              "hidden md:inline-flex px-6 py-2.5 rounded-lg text-sm font-bold bg-gradient-to-b from-accent to-accent/90 text-accent-foreground shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5 border border-accent/40 hover:border-accent/60",
+              "hidden md:inline-flex px-6 py-3 rounded-lg text-sm font-bold bg-gradient-to-b from-accent via-accent to-accent/85 text-accent-foreground shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 hover:scale-105 border border-accent/50 hover:border-accent/70",
             )}
           >
             Buy Now (999 PKR)
