@@ -91,19 +91,23 @@ export default function Index() {
 
           {/* Right stats section */}
           <div className="order-1 lg:order-2 relative w-full">
-            {/* Price poster highlight */}
-            <div className="mb-10 sm:mb-12 md:mb-14 text-center relative">
+            {/* Price poster highlight with thoughtful layout */}
+            <div className="mb-10 sm:mb-12 md:mb-14 relative">
               {/* Subtle background glow for price section */}
-              <div className="absolute inset-0 bg-gradient-to-b from-accent/10 to-transparent rounded-3xl blur-2xl -z-10" />
-              <p className="text-xs sm:text-sm font-bold text-accent/90 uppercase tracking-widest mb-3 sm:mb-4 letter-spacing">
-                Limited Time Offer
-              </p>
-              <h2 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-accent mb-3 sm:mb-4 leading-tight drop-shadow-lg">
-                999 PKR
-              </h2>
-              <p className="text-base sm:text-lg md:text-xl font-semibold text-foreground/80">
-                Lifetime eSIM
-              </p>
+              <div className="absolute inset-0 bg-gradient-to-b from-accent/8 via-accent/4 to-transparent rounded-3xl blur-3xl -z-10" />
+              <div className="flex flex-col items-center lg:items-end gap-2 sm:gap-3">
+                <p className="text-xs sm:text-sm font-bold text-accent/85 uppercase tracking-widest">
+                  Limited Time Offer
+                </p>
+                <div className="flex flex-col lg:flex-row items-center lg:items-baseline gap-2 sm:gap-4">
+                  <h2 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-accent leading-tight drop-shadow-lg">
+                    999 PKR
+                  </h2>
+                  <p className="text-base sm:text-lg md:text-xl font-semibold text-foreground/75">
+                    Lifetime eSIM
+                  </p>
+                </div>
+              </div>
             </div>
 
             {/* Stats grid */}
