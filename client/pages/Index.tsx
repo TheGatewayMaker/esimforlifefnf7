@@ -217,7 +217,7 @@ export default function Index() {
       {/* Buy Section */}
       <section
         id="buy"
-        className="relative py-24 md:py-40 lg:py-48 overflow-hidden"
+        className="relative py-16 sm:py-24 md:py-40 lg:py-48 overflow-hidden"
       >
         {/* Background decoration with smoothened yellow gradient */}
         <div className="absolute inset-0 -z-10">
@@ -225,22 +225,22 @@ export default function Index() {
           <div className="absolute bottom-0 left-1/4 w-[450px] h-[450px] bg-gradient-to-tr from-accent/12 via-accent/6 to-transparent rounded-full blur-[100px]" />
         </div>
 
-        <div className="container">
+        <div className="container px-4 sm:px-0">
           <div className="mx-auto max-w-3xl text-center">
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-black mb-10 tracking-tighter">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-8 sm:mb-10 tracking-tighter">
               Get Your eSIM Today
             </h2>
 
-            <div className="inline-flex flex-col sm:flex-row items-center sm:items-baseline gap-4 sm:gap-4 mb-10">
-              <span className="text-5xl md:text-6xl lg:text-7xl font-black text-accent">
+            <div className="inline-flex flex-col sm:flex-row items-center sm:items-baseline gap-3 sm:gap-4 mb-10">
+              <span className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-accent">
                 999 PKR
               </span>
-              <span className="text-base sm:text-lg text-accent font-bold uppercase tracking-widest">
+              <span className="text-xs sm:text-base md:text-lg text-accent font-bold uppercase tracking-widest">
                 One-time
               </span>
             </div>
 
-            <p className="text-base lg:text-lg text-foreground/75 leading-relaxed max-w-2xl mx-auto mb-14 font-medium">
+            <p className="text-sm sm:text-base lg:text-lg text-foreground/75 leading-relaxed max-w-2xl mx-auto mb-10 sm:mb-12 lg:mb-14 font-medium">
               Choose your preferred platform to purchase. Our team will guide
               you through a quick, secure setup process.
             </p>
