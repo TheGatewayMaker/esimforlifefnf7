@@ -108,7 +108,7 @@ export default function Index() {
             </div>
 
             {/* Stats grid */}
-            <div className="grid grid-cols-2 gap-4 sm:gap-5 md:gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 md:gap-5 lg:gap-6">
               <div className="stat">
                 <Wifi className="h-7 sm:h-8 md:h-9 w-7 sm:w-8 md:w-9 text-accent" />
                 <span className="stat-label text-xs">Connectivity</span>
