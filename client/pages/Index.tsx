@@ -259,7 +259,7 @@ export default function Index() {
               </div>
             </div>
 
-            <div className="rounded-2xl border border-accent/20 bg-gradient-to-br from-card to-card/80 p-8 shadow-xl backdrop-blur">
+            <div className="rounded-2xl border p-8 shadow-xl" style={{background: 'rgba(255, 255, 255, 0.06)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)', borderColor: 'rgba(255, 215, 0, 0.15)'}}>
               <h3 className="text-xl font-black mb-6">How it works</h3>
               <ol className="space-y-5 mb-8">
                 <li className="step flex items-start gap-4">
