@@ -96,9 +96,6 @@ export default function Index() {
               {/* Subtle background glow for price section */}
               <div className="absolute inset-0 bg-gradient-to-b from-accent/8 via-accent/4 to-transparent rounded-3xl blur-3xl -z-10" />
               <div className="flex flex-col items-center lg:items-end gap-2 sm:gap-3">
-                <p className="text-xs sm:text-sm font-bold text-accent/85 uppercase tracking-widest">
-                  Limited Time Offer
-                </p>
                 <div className="flex flex-col lg:flex-row items-center lg:items-baseline gap-2 sm:gap-4">
                   <h2 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-accent leading-tight drop-shadow-lg">
                     999 PKR
