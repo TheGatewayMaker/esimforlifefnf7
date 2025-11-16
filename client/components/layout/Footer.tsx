@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <footer className="border-t border-border/60 mt-20">
-      <div className="container py-12 grid gap-8 md:grid-cols-3">
+    <footer className="border-t border-border/60 mt-16 sm:mt-20">
+      <div className="container px-4 sm:px-6 lg:px-8 py-10 sm:py-12 grid gap-8 sm:gap-10 md:gap-12 grid-cols-1 md:grid-cols-3">
         <div>
           <div className="flex items-center gap-2 mb-3">
             <img
