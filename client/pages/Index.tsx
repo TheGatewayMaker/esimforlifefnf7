@@ -160,13 +160,18 @@ export default function Index() {
       </section>
 
       {/* Features Section */}
-      <section id="features" className="relative py-20 md:py-32 lg:py-40">
+      <section id="features" className="relative py-24 md:py-40 lg:py-48 overflow-hidden">
+        {/* Subtle background accent */}
+        <div className="absolute inset-0 -z-10 opacity-40">
+          <div className="absolute top-0 left-0 w-96 h-96 bg-accent/5 rounded-full blur-3xl" />
+          <div className="absolute bottom-20 right-0 w-72 h-72 bg-accent/5 rounded-full blur-3xl" />
+        </div>
         <div className="container">
-          <div className="mb-16 md:mb-20 max-w-2xl">
-            <h2 className="text-4xl md:text-5xl font-black mb-6 tracking-tight">
+          <div className="mb-16 md:mb-24 max-w-3xl">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-black mb-6 tracking-tighter">
               Everything you need
             </h2>
-            <p className="text-lg text-foreground/70 leading-relaxed">
+            <p className="text-lg md:text-xl text-foreground/75 leading-relaxed font-medium">
               Global compatibility, lifetime data, referral rewards, and
               seamless device transfers, wrapped in a premium, secure
               experience.
