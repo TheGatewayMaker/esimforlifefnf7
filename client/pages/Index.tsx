@@ -264,18 +264,18 @@ export default function Index() {
       </section>
 
       {/* Refer & Earn Section */}
-      <section id="refer" className="relative py-24 md:py-40 lg:py-48 overflow-hidden">
+      <section id="refer" className="relative py-16 sm:py-24 md:py-40 lg:py-48 overflow-hidden">
         {/* Subtle background accent - smoothened */}
         <div className="absolute inset-0 -z-10">
           <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-gradient-to-tl from-accent/12 via-accent/6 to-transparent rounded-full blur-[100px]" />
         </div>
-        <div className="container">
-          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+        <div className="container px-4 sm:px-0">
+          <div className="grid lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 lg:gap-16 items-center">
             <div>
-              <h2 className="text-4xl md:text-5xl lg:text-6xl font-black mb-8 tracking-tighter">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-6 sm:mb-8 tracking-tighter">
                 Refer & Earn
               </h2>
-              <p className="text-lg md:text-xl text-foreground/75 leading-relaxed mb-10 font-medium">
+              <p className="text-base sm:text-lg md:text-xl text-foreground/75 leading-relaxed mb-8 sm:mb-10 font-medium">
                 Invite friends and earn 500MB per successful referral with no
                 limits. After three referrals, unlock a bonus scratch card with
                 exclusive rewards.
