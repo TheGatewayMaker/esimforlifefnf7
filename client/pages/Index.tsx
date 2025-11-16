@@ -179,7 +179,7 @@ export default function Index() {
             </p>
           </div>
 
-          <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-stretch">
+          <div className="grid gap-4 sm:gap-5 md:gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-stretch px-4 sm:px-0">
             <FeatureCard
               title="Global Compatibility"
               description="Works across multiple countries including Pakistan. Reliable 4G & 5G worldwide performance."
