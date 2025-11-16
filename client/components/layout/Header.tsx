@@ -1,7 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
-import { Moon, Sun } from "lucide-react";
 
 const NAV = [
   { label: "Home", to: "/#home" },
@@ -14,14 +13,10 @@ const NAV = [
 export default function Header() {
   const [open, setOpen] = useState(false);
   const location = useLocation();
-  const [theme, setTheme] = useState<string>(
-    () => localStorage.getItem("theme") || "dark",
-  );
 
   useEffect(() => {
-    document.documentElement.classList.toggle("dark", theme === "dark");
-    localStorage.setItem("theme", theme);
-  }, [theme]);
+    document.documentElement.classList.add("dark");
+  }, []);
 
   useEffect(() => {
     setOpen(false);
