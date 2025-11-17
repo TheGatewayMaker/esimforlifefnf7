@@ -25,11 +25,11 @@ export default function Index() {
         {/* Enhanced decorative background elements with smooth yellow gradient */}
         <div className="absolute inset-0 -z-10">
           {/* Top-right yellow gradient (primary accent) - smoothened */}
-          <div className="absolute -top-64 -right-64 w-[600px] h-[600px] bg-gradient-to-br from-accent/25 via-accent/15 to-transparent rounded-full blur-[100px]" />
+          <div className="absolute -top-64 -right-64 w-[600px] h-[600px] bg-gradient-to-br from-accent/30 via-accent/18 to-transparent rounded-full blur-[100px]" />
           {/* Top-left accent glow - smoothened */}
-          <div className="absolute -top-40 -left-40 w-[500px] h-[500px] bg-gradient-to-br from-accent/12 via-accent/8 to-transparent rounded-full blur-[100px]" />
+          <div className="absolute -top-40 -left-40 w-[500px] h-[500px] bg-gradient-to-br from-accent/15 via-accent/10 to-transparent rounded-full blur-[100px]" />
           {/* Bottom-right soft accent - smoothened */}
-          <div className="absolute -bottom-48 right-0 w-[450px] h-[450px] bg-gradient-to-tl from-accent/10 via-accent/5 to-transparent rounded-full blur-[100px]" />
+          <div className="absolute -bottom-48 right-0 w-[450px] h-[450px] bg-gradient-to-tl from-accent/12 via-accent/6 to-transparent rounded-full blur-[100px]" />
         </div>
 
         <div className="container pt-8 sm:pt-12 md:pt-16 lg:pt-24 pb-12 sm:pb-16 md:pb-24 lg:pb-40 grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 lg:gap-16 items-center justify-center">
@@ -54,9 +54,20 @@ export default function Index() {
             <p className="text-base sm:text-lg md:text-lg text-foreground/80 max-w-xl leading-relaxed mb-8 sm:mb-10 font-medium">
               esim4life.shop provides an international data eSIM that never
               expires. Permanent data and account validity across multiple
-              countries, including Pakistan. Compatible with both PTA and
-              non-PTA phones.
+              countries, including Pakistan.
             </p>
+
+            {/* Non-PTA Emphasis Badge */}
+            <div className="mb-8 sm:mb-10 p-4 sm:p-5 rounded-xl border"
+              style={{
+                background: "linear-gradient(135deg, rgba(255, 215, 0, 0.08) 0%, rgba(255, 215, 0, 0.04) 100%)",
+                borderColor: "rgba(255, 215, 0, 0.3)",
+                boxShadow: "0 4px 12px rgba(0, 0, 0, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.1)",
+              }}
+            >
+              <p className="text-sm sm:text-base font-bold text-accent mb-1">✓ Works on ALL Non-PTA Phones</p>
+              <p className="text-xs sm:text-sm text-foreground/75">Full compatibility with international devices • No PTA restrictions</p>
+            </div>
 
             {/* Features chips */}
             <div className="flex flex-wrap items-center gap-3 sm:gap-4 mb-10 sm:mb-12">
@@ -141,22 +152,28 @@ export default function Index() {
               </div>
             </div>
 
-            {/* Compatibility info */}
+            {/* Global Coverage & Non-PTA Info */}
             <div
-              className="mt-6 sm:mt-7 md:mt-8 rounded-2xl border p-5 sm:p-6 md:p-7 text-center"
+              className="mt-6 sm:mt-7 md:mt-8 rounded-2xl border p-6 sm:p-7 md:p-8"
               style={{
-                background: "rgba(255, 215, 0, 0.08)",
-                backdropFilter: "blur(12px)",
-                WebkitBackdropFilter: "blur(12px)",
-                borderColor: "rgba(255, 215, 0, 0.25)",
+                background: "linear-gradient(135deg, rgba(255, 215, 0, 0.12) 0%, rgba(255, 215, 0, 0.06) 100%)",
+                backdropFilter: "blur(16px)",
+                WebkitBackdropFilter: "blur(16px)",
+                borderColor: "rgba(255, 215, 0, 0.35)",
+                boxShadow: "0 8px 20px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.15)",
               }}
             >
-              <p className="text-base sm:text-lg font-bold text-foreground mb-2">
-                Compatible with All Non-PTA Phones
-              </p>
-              <p className="text-xs sm:text-sm text-foreground/75 font-medium">
-                No restrictions • Full international compatibility
-              </p>
+              <div className="flex items-start gap-4 mb-4">
+                <div className="text-2xl">🌍</div>
+                <div>
+                  <p className="text-base sm:text-lg font-black text-foreground mb-1">
+                    Global Coverage • Non-PTA Compatible
+                  </p>
+                  <p className="text-xs sm:text-sm text-foreground/75 font-medium">
+                    Works in 150+ countries • All non-PTA phones • Full international compatibility
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
