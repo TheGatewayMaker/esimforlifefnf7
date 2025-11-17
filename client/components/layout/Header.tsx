@@ -23,7 +23,13 @@ export default function Header() {
   }, [location]);
 
   return (
-    <header className="sticky top-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-background/90 border-b border-accent/20">
+    <header
+      className="sticky top-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-background/85 border-b border-accent/30"
+      style={{
+        boxShadow:
+          "0 4px 12px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 215, 0, 0.1)",
+      }}
+    >
       <div className="container px-4 sm:px-6 lg:px-8 flex items-center justify-between py-3 sm:py-4 md:py-5">
         <Link to="/" className="flex items-center gap-3 group">
           <div className="relative">
@@ -45,10 +51,10 @@ export default function Header() {
             <Link
               key={n.label}
               to={n.to}
-              className="px-4 lg:px-5 py-2 md:py-2.5 text-xs md:text-sm font-semibold text-foreground/80 hover:text-accent transition-colors duration-300 relative group"
+              className="px-4 lg:px-5 py-2 md:py-2.5 text-xs md:text-sm font-bold text-foreground/75 hover:text-accent transition-colors duration-300 relative group rounded-lg hover:bg-accent/10"
             >
               {n.label}
-              <span className="absolute bottom-0 left-4 lg:left-5 right-4 lg:right-5 h-0.5 bg-accent scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />
+              <span className="absolute bottom-1 left-4 lg:left-5 right-4 lg:right-5 h-0.5 bg-gradient-to-r from-accent to-accent/50 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />
             </Link>
           ))}
         </nav>
@@ -57,15 +63,19 @@ export default function Header() {
           <Link
             to="/#buy"
             className={cn(
-              "hidden md:inline-flex px-6 py-3 rounded-lg text-sm font-bold bg-gradient-to-b from-accent via-accent to-accent/85 text-accent-foreground shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 hover:scale-105 border border-accent/50 hover:border-accent/70",
+              "hidden md:inline-flex px-6 py-3 rounded-xl text-sm font-bold bg-gradient-to-br from-accent via-accent to-accent/85 text-accent-foreground transition-all duration-300 hover:-translate-y-1 hover:scale-105 border border-accent/60 hover:border-accent/80",
             )}
+            style={{
+              boxShadow:
+                "0 8px 16px rgba(255, 215, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.25)",
+            }}
           >
             Buy Now (999 PKR)
           </Link>
           <button
             onClick={() => setOpen((o) => !o)}
             aria-label="Menu"
-            className="md:hidden inline-flex h-11 w-11 items-center justify-center rounded-lg border border-accent/30 bg-card hover:bg-accent/15 transition-all duration-300 hover:border-accent/50 shadow-sm hover:shadow-md"
+            className="md:hidden inline-flex h-11 w-11 items-center justify-center rounded-lg border border-accent/40 bg-card hover:bg-accent/15 transition-all duration-300 hover:border-accent/60 shadow-md hover:shadow-lg"
           >
             <span className="sr-only">Menu</span>
             <div className="space-y-1.5">
@@ -106,7 +116,11 @@ export default function Header() {
             ))}
             <Link
               to="/#buy"
-              className="block mt-4 px-5 py-3.5 rounded-lg text-sm font-bold bg-gradient-to-b from-accent via-accent to-accent/85 text-accent-foreground text-center shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+              className="block mt-4 px-5 py-3.5 rounded-xl text-sm font-bold bg-gradient-to-br from-accent via-accent to-accent/85 text-accent-foreground text-center transition-all duration-300 hover:-translate-y-1 border border-accent/60 hover:border-accent/80"
+              style={{
+                boxShadow:
+                  "0 8px 16px rgba(255, 215, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.25)",
+              }}
             >
               Buy Now (999 PKR)
             </Link>

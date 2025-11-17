@@ -25,16 +25,16 @@ export default function Index() {
         {/* Enhanced decorative background elements with smooth yellow gradient */}
         <div className="absolute inset-0 -z-10">
           {/* Top-right yellow gradient (primary accent) - smoothened */}
-          <div className="absolute -top-64 -right-64 w-[600px] h-[600px] bg-gradient-to-br from-accent/25 via-accent/15 to-transparent rounded-full blur-[100px]" />
+          <div className="absolute -top-64 -right-64 w-[600px] h-[600px] bg-gradient-to-br from-accent/30 via-accent/18 to-transparent rounded-full blur-[100px]" />
           {/* Top-left accent glow - smoothened */}
-          <div className="absolute -top-40 -left-40 w-[500px] h-[500px] bg-gradient-to-br from-accent/12 via-accent/8 to-transparent rounded-full blur-[100px]" />
+          <div className="absolute -top-40 -left-40 w-[500px] h-[500px] bg-gradient-to-br from-accent/15 via-accent/10 to-transparent rounded-full blur-[100px]" />
           {/* Bottom-right soft accent - smoothened */}
-          <div className="absolute -bottom-48 right-0 w-[450px] h-[450px] bg-gradient-to-tl from-accent/10 via-accent/5 to-transparent rounded-full blur-[100px]" />
+          <div className="absolute -bottom-48 right-0 w-[450px] h-[450px] bg-gradient-to-tl from-accent/12 via-accent/6 to-transparent rounded-full blur-[100px]" />
         </div>
 
         <div className="container pt-8 sm:pt-12 md:pt-16 lg:pt-24 pb-12 sm:pb-16 md:pb-24 lg:pb-40 grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 lg:gap-16 items-center justify-center">
           {/* Left content */}
-          <div className="flex flex-col justify-center order-2 lg:order-1">
+          <div className="flex flex-col justify-center lg:order-1">
             <div className="inline-flex items-center gap-3 sm:gap-4 mb-8 sm:mb-10 w-fit">
               <div className="h-10 sm:h-12 w-1 bg-gradient-to-b from-accent via-accent to-accent/30 rounded-full" />
               <span className="text-xs sm:text-sm font-bold text-accent tracking-widest uppercase">
@@ -54,9 +54,28 @@ export default function Index() {
             <p className="text-base sm:text-lg md:text-lg text-foreground/80 max-w-xl leading-relaxed mb-8 sm:mb-10 font-medium">
               esim4life.shop provides an international data eSIM that never
               expires. Permanent data and account validity across multiple
-              countries, including Pakistan. Compatible with both PTA and
-              non-PTA phones.
+              countries, including Pakistan.
             </p>
+
+            {/* Non-PTA Emphasis Badge */}
+            <div
+              className="mb-8 sm:mb-10 p-4 sm:p-5 rounded-xl border"
+              style={{
+                background:
+                  "linear-gradient(135deg, rgba(255, 215, 0, 0.08) 0%, rgba(255, 215, 0, 0.04) 100%)",
+                borderColor: "rgba(255, 215, 0, 0.3)",
+                boxShadow:
+                  "0 4px 12px rgba(0, 0, 0, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.1)",
+              }}
+            >
+              <p className="text-sm sm:text-base font-bold text-accent mb-1">
+                ✓ Works on ALL Non-PTA Phones
+              </p>
+              <p className="text-xs sm:text-sm text-foreground/75">
+                Full compatibility with international devices • No PTA
+                restrictions
+              </p>
+            </div>
 
             {/* Features chips */}
             <div className="flex flex-wrap items-center gap-3 sm:gap-4 mb-10 sm:mb-12">
@@ -92,21 +111,44 @@ export default function Index() {
           </div>
 
           {/* Right stats section */}
-          <div className="order-1 lg:order-2 relative w-full">
+          <div className="lg:order-2 relative w-full">
             {/* Price poster highlight with thoughtful layout */}
-            <div className="mb-10 sm:mb-12 md:mb-14 relative">
-              {/* Subtle background glow for price section */}
-              <div className="absolute inset-0 bg-gradient-to-b from-accent/8 via-accent/4 to-transparent rounded-3xl blur-3xl -z-10" />
+            <div
+              className="relative rounded-3xl border"
+              style={{
+                background:
+                  "linear-gradient(135deg, rgba(255, 215, 0, 0.12) 0%, rgba(255, 215, 0, 0.06) 100%)",
+                borderColor: "rgba(255, 215, 0, 0.3)",
+                boxShadow:
+                  "0 12px 32px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.15)",
+                margin: "9px 0 56px",
+                padding: "24px 48px 16px",
+              }}
+            >
               <div className="flex flex-col items-center lg:items-end gap-2 sm:gap-3">
-                <div className="flex flex-col lg:flex-row items-center lg:items-baseline gap-2 sm:gap-3 md:gap-4">
-                  <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black text-accent leading-tight drop-shadow-lg">
-                    999 PKR
-                  </h2>
-                  <p className="text-sm sm:text-base md:text-lg lg:text-xl font-semibold text-foreground/75">
-                    Lifetime eSIM
-                  </p>
-                </div>
+                <h2
+                  className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-8xl font-black text-accent leading-tight"
+                  style={{
+                    margin: "-4px -3px -5px -2px",
+                  }}
+                >
+                  999 PKR
+                </h2>
               </div>
+              <p className="text-sm sm:text-base md:text-lg lg:text-xl font-black text-foreground">
+                Lifetime eSIM
+              </p>
+              <p
+                className="text-xs font-bold mt-2"
+                style={{
+                  color: "rgb(255, 217, 0)",
+                  fontSize: "15px",
+                  fontWeight: "700",
+                  lineHeight: "20px",
+                }}
+              >
+                GLOBAL COVERAGE • NON-PTA PHONES
+              </p>
             </div>
 
             {/* Stats grid */}
@@ -141,22 +183,31 @@ export default function Index() {
               </div>
             </div>
 
-            {/* Compatibility info */}
+            {/* Global Coverage & Non-PTA Info */}
             <div
-              className="mt-6 sm:mt-7 md:mt-8 rounded-2xl border p-5 sm:p-6 md:p-7 text-center"
+              className="mt-6 sm:mt-7 md:mt-8 rounded-2xl border p-6 sm:p-7 md:p-8"
               style={{
-                background: "rgba(255, 215, 0, 0.08)",
-                backdropFilter: "blur(12px)",
-                WebkitBackdropFilter: "blur(12px)",
-                borderColor: "rgba(255, 215, 0, 0.25)",
+                background:
+                  "linear-gradient(135deg, rgba(255, 215, 0, 0.12) 0%, rgba(255, 215, 0, 0.06) 100%)",
+                backdropFilter: "blur(16px)",
+                WebkitBackdropFilter: "blur(16px)",
+                borderColor: "rgba(255, 215, 0, 0.35)",
+                boxShadow:
+                  "0 8px 20px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.15)",
               }}
             >
-              <p className="text-base sm:text-lg font-bold text-foreground mb-2">
-                Compatible with All Non-PTA Phones
-              </p>
-              <p className="text-xs sm:text-sm text-foreground/75 font-medium">
-                No restrictions • Full international compatibility
-              </p>
+              <div className="flex items-start gap-4 mb-4">
+                <div className="text-2xl">🌍</div>
+                <div>
+                  <p className="text-base sm:text-lg font-black text-foreground mb-1">
+                    Global Coverage • Non-PTA Compatible
+                  </p>
+                  <p className="text-xs sm:text-sm text-foreground/75 font-medium">
+                    Works in 150+ countries • All non-PTA phones • Full
+                    international compatibility
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -169,8 +220,8 @@ export default function Index() {
       >
         {/* Subtle background accent - smoothened */}
         <div className="absolute inset-0 -z-10">
-          <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-gradient-to-br from-accent/8 via-accent/4 to-transparent rounded-full blur-[100px]" />
-          <div className="absolute bottom-0 right-0 w-[450px] h-[450px] bg-gradient-to-tl from-accent/6 via-accent/3 to-transparent rounded-full blur-[100px]" />
+          <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-gradient-to-br from-accent/10 via-accent/5 to-transparent rounded-full blur-[100px]" />
+          <div className="absolute bottom-0 right-0 w-[450px] h-[450px] bg-gradient-to-tl from-accent/8 via-accent/4 to-transparent rounded-full blur-[100px]" />
         </div>
         <div className="container">
           <div className="mb-12 sm:mb-16 md:mb-24 max-w-3xl px-4 sm:px-0">
@@ -178,9 +229,9 @@ export default function Index() {
               Everything you need
             </h2>
             <p className="text-base sm:text-lg md:text-xl text-foreground/75 leading-relaxed font-medium">
-              Global compatibility, lifetime data, referral rewards, and
-              seamless device transfers, wrapped in a premium, secure
-              experience.
+              Global compatibility across 150+ countries, lifetime data,
+              referral rewards, seamless device transfers, and works on all
+              non-PTA phones with a premium, secure experience.
             </p>
           </div>
 
@@ -226,8 +277,8 @@ export default function Index() {
       >
         {/* Background decoration with smoothened yellow gradient */}
         <div className="absolute inset-0 -z-10">
-          <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-gradient-to-br from-accent/20 via-accent/10 to-transparent rounded-full blur-[100px]" />
-          <div className="absolute bottom-0 left-1/4 w-[450px] h-[450px] bg-gradient-to-tr from-accent/12 via-accent/6 to-transparent rounded-full blur-[100px]" />
+          <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-gradient-to-br from-accent/25 via-accent/12 to-transparent rounded-full blur-[100px]" />
+          <div className="absolute bottom-0 left-1/4 w-[450px] h-[450px] bg-gradient-to-tr from-accent/15 via-accent/8 to-transparent rounded-full blur-[100px]" />
         </div>
 
         <div className="container px-4 sm:px-0">
@@ -236,7 +287,7 @@ export default function Index() {
               Get Your eSIM Today
             </h2>
 
-            <div className="inline-flex flex-col sm:flex-row items-center sm:items-baseline gap-3 sm:gap-4 mb-10">
+            <div className="inline-flex flex-col sm:flex-row items-center sm:items-baseline gap-3 sm:gap-4 mb-8 sm:mb-10">
               <span className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-accent">
                 999 PKR
               </span>
@@ -245,9 +296,24 @@ export default function Index() {
               </span>
             </div>
 
+            {/* Global Coverage Highlight */}
+            <div
+              className="mb-8 sm:mb-10 p-4 sm:p-5 rounded-xl border mx-auto w-fit"
+              style={{
+                background:
+                  "linear-gradient(135deg, rgba(255, 215, 0, 0.1) 0%, rgba(255, 215, 0, 0.05) 100%)",
+                borderColor: "rgba(255, 215, 0, 0.3)",
+              }}
+            >
+              <p className="text-xs sm:text-sm font-bold text-accent">
+                ✓ Works in 150+ Countries • ✓ Non-PTA Compatible
+              </p>
+            </div>
+
             <p className="text-sm sm:text-base lg:text-lg text-foreground/75 leading-relaxed max-w-2xl mx-auto mb-10 sm:mb-12 lg:mb-14 font-medium">
               Choose your preferred platform to purchase. Our team will guide
-              you through a quick, secure setup process.
+              you through a quick, secure setup process. Get global connectivity
+              with lifetime validity.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center gap-4 w-full justify-center max-w-2xl mx-auto">
@@ -275,7 +341,7 @@ export default function Index() {
       >
         {/* Subtle background accent - smoothened */}
         <div className="absolute inset-0 -z-10">
-          <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-gradient-to-tl from-accent/12 via-accent/6 to-transparent rounded-full blur-[100px]" />
+          <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-gradient-to-tl from-accent/15 via-accent/8 to-transparent rounded-full blur-[100px]" />
         </div>
         <div className="container px-4 sm:px-0">
           <div className="grid lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 lg:gap-16 items-center">
@@ -310,12 +376,15 @@ export default function Index() {
             </div>
 
             <div
-              className="rounded-2xl border p-8 shadow-xl"
+              className="rounded-2xl border p-8"
               style={{
-                background: "rgba(255, 255, 255, 0.06)",
-                backdropFilter: "blur(10px)",
-                WebkitBackdropFilter: "blur(10px)",
-                borderColor: "rgba(255, 215, 0, 0.15)",
+                background:
+                  "linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%)",
+                backdropFilter: "blur(16px)",
+                WebkitBackdropFilter: "blur(16px)",
+                borderColor: "rgba(255, 215, 0, 0.25)",
+                boxShadow:
+                  "0 8px 24px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.15)",
               }}
             >
               <h3 className="text-lg md:text-xl font-black mb-6 tracking-tight">
@@ -403,8 +472,8 @@ export default function Index() {
       >
         {/* Background decoration with smoothened yellow gradient */}
         <div className="absolute inset-0 -z-10">
-          <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-gradient-to-tr from-accent/15 via-accent/8 to-transparent rounded-full blur-[100px]" />
-          <div className="absolute top-0 right-1/3 w-[450px] h-[450px] bg-gradient-to-br from-accent/8 via-accent/4 to-transparent rounded-full blur-[100px]" />
+          <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-gradient-to-tr from-accent/18 via-accent/10 to-transparent rounded-full blur-[100px]" />
+          <div className="absolute top-0 right-1/3 w-[450px] h-[450px] bg-gradient-to-br from-accent/10 via-accent/5 to-transparent rounded-full blur-[100px]" />
         </div>
 
         <div className="container px-4 sm:px-0">
