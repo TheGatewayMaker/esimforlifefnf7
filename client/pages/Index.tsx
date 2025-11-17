@@ -105,24 +105,37 @@ export default function Index() {
           {/* Right stats section */}
           <div className="lg:order-2 relative w-full">
             {/* Price poster highlight with thoughtful layout */}
-            <div className="mb-10 sm:mb-12 md:mb-14 relative p-8 sm:p-10 md:p-12 rounded-3xl border"
+            <div className="relative rounded-3xl border"
               style={{
                 background: "linear-gradient(135deg, rgba(255, 215, 0, 0.12) 0%, rgba(255, 215, 0, 0.06) 100%)",
                 borderColor: "rgba(255, 215, 0, 0.3)",
                 boxShadow: "0 12px 32px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.15)",
+                margin: "9px 0 56px",
+                padding: "24px 48px 16px",
               }}
             >
               <div className="flex flex-col items-center lg:items-end gap-2 sm:gap-3">
-                <div className="flex flex-col lg:flex-row items-center lg:items-baseline gap-2 sm:gap-3 md:gap-4">
-                  <h2 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-8xl font-black text-accent leading-tight">
-                    999 PKR
-                  </h2>
-                  <p className="text-sm sm:text-base md:text-lg lg:text-xl font-black text-foreground">
-                    Lifetime eSIM
-                  </p>
-                </div>
-                <p className="text-xs sm:text-sm text-accent font-bold mt-2">GLOBAL COVERAGE • NON-PTA PHONES</p>
+                <h2 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-8xl font-black text-accent leading-tight"
+                  style={{
+                    margin: "-4px -3px -5px -2px",
+                  }}
+                >
+                  999 PKR
+                </h2>
               </div>
+              <p className="text-sm sm:text-base md:text-lg lg:text-xl font-black text-foreground">
+                Lifetime eSIM
+              </p>
+              <p className="text-xs font-bold mt-2"
+                style={{
+                  color: "rgb(255, 217, 0)",
+                  fontSize: "15px",
+                  fontWeight: "700",
+                  lineHeight: "20px",
+                }}
+              >
+                GLOBAL COVERAGE • NON-PTA PHONES
+              </p>
             </div>
 
             {/* Stats grid */}
