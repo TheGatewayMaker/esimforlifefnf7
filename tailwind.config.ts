@@ -88,9 +88,9 @@ export default {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       fontFamily: {
-        serif: ["Playfair Display", "Georgia", "serif"],
+        serif: ["Sora", "ui-sans-serif", "system-ui", "sans-serif"],
         sans: [
-          "Inter",
+          "Plus Jakarta Sans",
           "ui-sans-serif",
           "system-ui",
           "-apple-system",

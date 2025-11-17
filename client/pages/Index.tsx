@@ -32,7 +32,7 @@ export default function Index() {
           <div className="absolute -bottom-48 right-0 w-[450px] h-[450px] bg-gradient-to-tl from-accent/12 via-accent/6 to-transparent rounded-full blur-[100px]" />
         </div>
 
-        <div className="container pt-8 sm:pt-12 md:pt-16 lg:pt-24 pb-12 sm:pb-16 md:pb-24 lg:pb-40 grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 lg:gap-16 items-center justify-center">
+        <div className="container pt-8 sm:pt-12 md:pt-16 lg:pt-20 pb-8 sm:pb-12 md:pb-16 lg:pb-32 grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-20 items-start lg:items-center justify-center">
           {/* Left content */}
           <div className="flex flex-col justify-center lg:order-1">
             <div className="inline-flex items-center gap-3 sm:gap-4 mb-8 sm:mb-10 w-fit">
@@ -112,47 +112,23 @@ export default function Index() {
 
           {/* Right stats section */}
           <div className="lg:order-2 relative w-full">
-            {/* Price poster highlight with thoughtful layout */}
-            <div
-              className="relative rounded-3xl border"
-              style={{
-                background:
-                  "linear-gradient(135deg, rgba(255, 215, 0, 0.12) 0%, rgba(255, 215, 0, 0.06) 100%)",
-                borderColor: "rgba(255, 215, 0, 0.3)",
-                boxShadow:
-                  "0 12px 32px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.15)",
-                margin: "9px 0 56px",
-                padding: "24px 48px 16px",
-              }}
-            >
-              <div className="flex flex-col items-center lg:items-end gap-2 sm:gap-3">
-                <h2
-                  className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-8xl font-black text-accent leading-tight"
-                  style={{
-                    margin: "-4px -3px -5px -2px",
-                  }}
-                >
-                  999 PKR
+            {/* Price display without background */}
+            <div className="mb-10 sm:mb-12 lg:mb-14">
+              <div className="flex flex-col items-center lg:items-end gap-1">
+                <h2 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-black text-accent leading-tight">
+                  <span>999</span>{" "}
+                  <span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
+                    PKR
+                  </span>
                 </h2>
+                <p className="text-base sm:text-lg md:text-xl font-black text-foreground mt-1 sm:mt-2">
+                  Lifetime eSIM
+                </p>
               </div>
-              <p className="text-sm sm:text-base md:text-lg lg:text-xl font-black text-foreground">
-                Lifetime eSIM
-              </p>
-              <p
-                className="text-xs font-bold mt-2"
-                style={{
-                  color: "rgb(255, 217, 0)",
-                  fontSize: "15px",
-                  fontWeight: "700",
-                  lineHeight: "20px",
-                }}
-              >
-                GLOBAL COVERAGE • NON-PTA PHONES
-              </p>
             </div>
 
             {/* Stats grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 md:gap-5 lg:gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5 md:gap-6 lg:gap-7">
               <div className="stat">
                 <Wifi className="h-7 sm:h-8 md:h-9 w-7 sm:w-8 md:w-9 text-accent" />
                 <span className="stat-label text-xs">Connectivity</span>
