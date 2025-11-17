@@ -105,18 +105,23 @@ export default function Index() {
           {/* Right stats section */}
           <div className="lg:order-2 relative w-full">
             {/* Price poster highlight with thoughtful layout */}
-            <div className="mb-10 sm:mb-12 md:mb-14 relative">
-              {/* Subtle background glow for price section */}
-              <div className="absolute inset-0 bg-gradient-to-b from-accent/8 via-accent/4 to-transparent rounded-3xl blur-3xl -z-10" />
+            <div className="mb-10 sm:mb-12 md:mb-14 relative p-8 sm:p-10 md:p-12 rounded-3xl border"
+              style={{
+                background: "linear-gradient(135deg, rgba(255, 215, 0, 0.12) 0%, rgba(255, 215, 0, 0.06) 100%)",
+                borderColor: "rgba(255, 215, 0, 0.3)",
+                boxShadow: "0 12px 32px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.15)",
+              }}
+            >
               <div className="flex flex-col items-center lg:items-end gap-2 sm:gap-3">
                 <div className="flex flex-col lg:flex-row items-center lg:items-baseline gap-2 sm:gap-3 md:gap-4">
-                  <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black text-accent leading-tight drop-shadow-lg">
+                  <h2 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-8xl font-black text-accent leading-tight">
                     999 PKR
                   </h2>
-                  <p className="text-sm sm:text-base md:text-lg lg:text-xl font-semibold text-foreground/75">
+                  <p className="text-sm sm:text-base md:text-lg lg:text-xl font-black text-foreground">
                     Lifetime eSIM
                   </p>
                 </div>
+                <p className="text-xs sm:text-sm text-accent font-bold mt-2">GLOBAL COVERAGE • NON-PTA PHONES</p>
               </div>
             </div>
 
