@@ -34,7 +34,7 @@ export default function Header() {
             className="h-10 w-10 sm:h-11 sm:w-11 md:h-12 md:w-12 rounded transition-all duration-200"
             loading="lazy"
           />
-          <span className="font-bold tracking-tight text-base sm:text-lg text-foreground hidden sm:inline-block">
+          <span className="font-black tracking-tight text-base sm:text-lg text-foreground hidden sm:inline-block">
             eSIM4life
           </span>
         </Link>
@@ -45,7 +45,7 @@ export default function Header() {
             <Link
               key={n.label}
               to={n.to}
-              className="text-sm font-semibold text-foreground/75 hover:text-accent transition-colors duration-200"
+              className="text-sm font-bold text-foreground/75 hover:text-accent transition-colors duration-200"
             >
               {n.label}
             </Link>
