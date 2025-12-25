@@ -129,9 +129,9 @@ export default function Index() {
       <section id="features" className="relative py-16 sm:py-24 md:py-32 overflow-hidden">
         <div className="container">
           {/* Section Header */}
-          <div className="mb-14 sm:mb-20 max-w-2xl">
+          <div className="mb-14 sm:mb-20 max-w-4xl mx-auto text-center">
             <p className="text-xs font-black text-accent uppercase tracking-widest mb-4">Core Features</p>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black mb-6">Everything you need</h2>
+            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black mb-8">Everything you need</h2>
             <p className="text-base sm:text-lg text-foreground/70 font-bold">Global compatibility, lifetime validity, referral rewards, seamless device transfers, and premium security. All features designed for reliability and trust.</p>
           </div>
 
