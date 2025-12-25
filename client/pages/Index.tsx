@@ -321,9 +321,9 @@ export default function Index() {
       {/* CTA Section - Buy */}
       <section id="buy" className="relative py-16 sm:py-24 md:py-32 overflow-hidden">
         <div className="container">
-          <div className="mx-auto max-w-3xl text-center">
+          <div className="mx-auto max-w-4xl text-center">
             <p className="text-xs font-black text-accent uppercase tracking-widest mb-4">Ready to Get Connected?</p>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black mb-8">Get Your eSIM Today</h2>
+            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black mb-8">Get Your eSIM Today</h2>
 
             <div className="mb-8">
               <div className="inline-block">
