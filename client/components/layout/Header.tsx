@@ -26,8 +26,7 @@ export default function Header() {
     <header
       className="sticky top-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-background/80 border-b border-accent/20"
       style={{
-        boxShadow:
-          "0 2px 8px rgba(0, 0, 0, 0.15)",
+        boxShadow: "0 2px 8px rgba(0, 0, 0, 0.15)",
       }}
     >
       <div className="container px-4 sm:px-6 lg:px-8 flex items-center justify-between py-3 sm:py-4 md:py-5">

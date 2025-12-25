@@ -21,8 +21,7 @@ export default function GlowButton({ href, label, icon, className }: Props) {
         className,
       )}
       style={{
-        boxShadow:
-          "0 4px 12px rgba(61, 207, 220, 0.3)",
+        boxShadow: "0 4px 12px rgba(61, 207, 220, 0.3)",
       }}
     >
       {icon && (

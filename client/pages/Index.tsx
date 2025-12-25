@@ -50,7 +50,9 @@ export default function Index() {
             </p>
 
             <p className="text-base sm:text-lg text-foreground/75 max-w-xl leading-relaxed mb-7 sm:mb-9 font-medium">
-              Premium international data eSIM with permanent validity. Works across 150+ countries with full 4G/5G connectivity, compatible with all non-PTA devices.
+              Premium international data eSIM with permanent validity. Works
+              across 150+ countries with full 4G/5G connectivity, compatible
+              with all non-PTA devices.
             </p>
 
             {/* Non-PTA Emphasis Badge */}
@@ -66,7 +68,8 @@ export default function Index() {
                 ✓ Works on ALL Non-PTA Phones
               </p>
               <p className="text-xs sm:text-sm text-foreground/70 font-medium">
-                Full compatibility with international devices • No PTA restrictions
+                Full compatibility with international devices • No PTA
+                restrictions
               </p>
             </div>
 
@@ -110,9 +113,7 @@ export default function Index() {
               <div className="flex flex-col items-center lg:items-end gap-2">
                 <h2 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-accent leading-tight">
                   <span>999</span>{" "}
-                  <span className="text-3xl sm:text-4xl md:text-5xl">
-                    PKR
-                  </span>
+                  <span className="text-3xl sm:text-4xl md:text-5xl">PKR</span>
                 </h2>
                 <p className="text-base sm:text-lg font-bold text-foreground/80">
                   Lifetime Subscription
@@ -168,7 +169,8 @@ export default function Index() {
                     Global Coverage • Non-PTA Compatible
                   </p>
                   <p className="text-xs sm:text-sm text-foreground/70 font-medium">
-                    Works in 150+ countries • All non-PTA phones • International compatibility
+                    Works in 150+ countries • All non-PTA phones • International
+                    compatibility
                   </p>
                 </div>
               </div>
@@ -193,7 +195,9 @@ export default function Index() {
               Everything you need
             </h2>
             <p className="text-base sm:text-lg text-foreground/70 leading-relaxed font-medium">
-              Global compatibility, lifetime validity, referral rewards, seamless device transfers, and premium security. All features designed for reliability and trust.
+              Global compatibility, lifetime validity, referral rewards,
+              seamless device transfers, and premium security. All features
+              designed for reliability and trust.
             </p>
           </div>
 
@@ -272,7 +276,9 @@ export default function Index() {
             </div>
 
             <p className="text-sm sm:text-base text-foreground/70 leading-relaxed max-w-2xl mx-auto mb-10 sm:mb-12 font-medium">
-              Simple, secure purchase process. Our support team will guide you through setup and activation. Global connectivity with lifetime validity guaranteed.
+              Simple, secure purchase process. Our support team will guide you
+              through setup and activation. Global connectivity with lifetime
+              validity guaranteed.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center gap-4 w-full justify-center max-w-2xl mx-auto">
@@ -309,7 +315,9 @@ export default function Index() {
                 Refer & Earn
               </h2>
               <p className="text-base sm:text-lg text-foreground/70 leading-relaxed mb-8 sm:mb-10 font-medium">
-                Grow your data through our referral program. Earn 500MB for each successful referral with unlimited earning potential. After three referrals, unlock exclusive bonus scratch cards.
+                Grow your data through our referral program. Earn 500MB for each
+                successful referral with unlimited earning potential. After
+                three referrals, unlock exclusive bonus scratch cards.
               </p>
 
               <div className="grid sm:grid-cols-2 gap-4">
@@ -367,7 +375,8 @@ export default function Index() {
                     2
                   </div>
                   <span className="text-base leading-relaxed font-medium">
-                    Friend installs the app and enters your referral code (no purchase needed).
+                    Friend installs the app and enters your referral code (no
+                    purchase needed).
                   </span>
                 </li>
                 <li className="step flex items-start gap-4">
@@ -380,7 +389,8 @@ export default function Index() {
                     3
                   </div>
                   <span className="text-base leading-relaxed font-medium">
-                    Both get 500MB instantly. After 3 referrals, unlock a bonus scratch card worth up to 300GB.
+                    Both get 500MB instantly. After 3 referrals, unlock a bonus
+                    scratch card worth up to 300GB.
                   </span>
                 </li>
               </ol>
@@ -395,7 +405,7 @@ export default function Index() {
                     background: "rgba(61, 207, 220, 0.1)",
                     borderColor: "rgba(61, 207, 220, 0.25)",
                     color: "hsl(185 80% 50%)",
-                    border: "1px solid rgba(61, 207, 220, 0.25)"
+                    border: "1px solid rgba(61, 207, 220, 0.25)",
                   }}
                 >
                   Get referral link on WhatsApp
@@ -410,7 +420,7 @@ export default function Index() {
                     background: "rgba(61, 207, 220, 0.1)",
                     borderColor: "rgba(61, 207, 220, 0.25)",
                     color: "hsl(185 80% 50%)",
-                    border: "1px solid rgba(61, 207, 220, 0.25)"
+                    border: "1px solid rgba(61, 207, 220, 0.25)",
                   }}
                 >
                   Get referral link on Telegram
@@ -439,7 +449,8 @@ export default function Index() {
               Need Help?
             </h2>
             <p className="text-base sm:text-lg text-foreground/70 leading-relaxed mb-10 sm:mb-12 font-medium">
-              Our dedicated support team is available 24/7 to help you. Reach out on WhatsApp or Telegram for quick, reliable assistance.
+              Our dedicated support team is available 24/7 to help you. Reach
+              out on WhatsApp or Telegram for quick, reliable assistance.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center gap-4 w-full justify-center max-w-2xl mx-auto">
