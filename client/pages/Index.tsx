@@ -182,10 +182,10 @@ export default function Index() {
         id="features"
         className="relative py-16 sm:py-24 md:py-40 lg:py-48 overflow-hidden"
       >
-        {/* Subtle background accent - smoothened */}
+        {/* Subtle background accent */}
         <div className="absolute inset-0 -z-10">
-          <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-gradient-to-br from-accent/10 via-accent/5 to-transparent rounded-full blur-[100px]" />
-          <div className="absolute bottom-0 right-0 w-[450px] h-[450px] bg-gradient-to-tl from-accent/8 via-accent/4 to-transparent rounded-full blur-[100px]" />
+          <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-gradient-to-br from-accent/8 via-accent/3 to-transparent rounded-full blur-[120px]" />
+          <div className="absolute bottom-0 right-0 w-[450px] h-[450px] bg-gradient-to-tl from-accent/6 via-accent/2 to-transparent rounded-full blur-[120px]" />
         </div>
         <div className="container">
           <div className="mb-12 sm:mb-16 md:mb-24 max-w-3xl px-4 sm:px-0">
