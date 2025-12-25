@@ -98,23 +98,23 @@ export default function Index() {
               <div className="grid grid-cols-2 gap-4">
                 <div className="stat-card-premium">
                   <Wifi className="h-5 w-5 text-accent mb-3" />
-                  <p className="text-xs font-semibold text-foreground/60 uppercase mb-2">Connectivity</p>
-                  <p className="text-lg sm:text-xl font-bold text-accent">4G/5G</p>
+                  <p className="text-xs font-black text-foreground/60 uppercase mb-2">Connectivity</p>
+                  <p className="text-lg sm:text-xl font-black text-accent">4G/5G</p>
                 </div>
                 <div className="stat-card-premium">
                   <Infinity className="h-5 w-5 text-accent mb-3" />
-                  <p className="text-xs font-semibold text-foreground/60 uppercase mb-2">Validity</p>
-                  <p className="text-lg sm:text-xl font-bold text-accent">Lifetime</p>
+                  <p className="text-xs font-black text-foreground/60 uppercase mb-2">Validity</p>
+                  <p className="text-lg sm:text-xl font-black text-accent">Lifetime</p>
                 </div>
                 <div className="stat-card-premium">
                   <Globe2 className="h-5 w-5 text-accent mb-3" />
-                  <p className="text-xs font-semibold text-foreground/60 uppercase mb-2">Coverage</p>
-                  <p className="text-lg sm:text-xl font-bold text-accent">150+ Countries</p>
+                  <p className="text-xs font-black text-foreground/60 uppercase mb-2">Coverage</p>
+                  <p className="text-lg sm:text-xl font-black text-accent">150+ Countries</p>
                 </div>
                 <div className="stat-card-premium">
                   <Shield className="h-5 w-5 text-accent mb-3" />
-                  <p className="text-xs font-semibold text-foreground/60 uppercase mb-2">Security</p>
-                  <p className="text-lg sm:text-xl font-bold text-accent">Secure</p>
+                  <p className="text-xs font-black text-foreground/60 uppercase mb-2">Security</p>
+                  <p className="text-lg sm:text-xl font-black text-accent">Secure</p>
                 </div>
               </div>
             </div>
