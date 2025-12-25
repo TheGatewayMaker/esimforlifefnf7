@@ -234,9 +234,9 @@ export default function Index() {
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             {/* Left Content */}
             <div>
-              <p className="text-xs font-semibold text-accent uppercase tracking-widest mb-4">Grow Your Data</p>
-              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">Refer & Earn</h2>
-              <p className="text-base sm:text-lg text-foreground/70 mb-8">
+              <p className="text-xs font-black text-accent uppercase tracking-widest mb-4">Grow Your Data</p>
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-black mb-6">Refer & Earn</h2>
+              <p className="text-base sm:text-lg text-foreground/70 mb-8 font-bold">
                 Grow your data through our referral program. Earn 500MB for each successful referral with unlimited earning potential. After three referrals, unlock exclusive bonus scratch cards.
               </p>
 
