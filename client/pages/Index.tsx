@@ -154,26 +154,21 @@ export default function Index() {
 
             {/* Global Coverage & Non-PTA Info */}
             <div
-              className="mt-6 sm:mt-7 md:mt-8 rounded-2xl border p-6 sm:p-7 md:p-8"
+              className="mt-6 sm:mt-7 md:mt-8 rounded-lg border p-6 sm:p-7"
               style={{
-                background:
-                  "linear-gradient(135deg, rgba(255, 215, 0, 0.12) 0%, rgba(255, 215, 0, 0.06) 100%)",
-                backdropFilter: "blur(16px)",
-                WebkitBackdropFilter: "blur(16px)",
-                borderColor: "rgba(255, 215, 0, 0.35)",
-                boxShadow:
-                  "0 8px 20px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.15)",
+                background: "rgba(61, 207, 220, 0.06)",
+                borderColor: "rgba(61, 207, 220, 0.25)",
+                boxShadow: "0 2px 8px rgba(0, 0, 0, 0.08)",
               }}
             >
-              <div className="flex items-start gap-4 mb-4">
-                <div className="text-2xl">🌍</div>
+              <div className="flex items-start gap-4">
+                <div className="text-2xl flex-shrink-0">🌍</div>
                 <div>
-                  <p className="text-base sm:text-lg font-black text-foreground mb-1">
+                  <p className="text-base sm:text-lg font-bold text-foreground mb-1">
                     Global Coverage • Non-PTA Compatible
                   </p>
-                  <p className="text-xs sm:text-sm text-foreground/75 font-medium">
-                    Works in 150+ countries • All non-PTA phones • Full
-                    international compatibility
+                  <p className="text-xs sm:text-sm text-foreground/70 font-medium">
+                    Works in 150+ countries • All non-PTA phones • International compatibility
                   </p>
                 </div>
               </div>
