@@ -84,7 +84,7 @@ export default function Header() {
               <Link
                 key={n.label}
                 to={n.to}
-                className="block px-4 py-3 rounded text-sm font-semibold text-foreground/75 hover:bg-accent/10 hover:text-accent transition-colors duration-200"
+                className="block px-4 py-3 rounded text-sm font-bold text-foreground/75 hover:bg-accent/10 hover:text-accent transition-colors duration-200"
               >
                 {n.label}
               </Link>
