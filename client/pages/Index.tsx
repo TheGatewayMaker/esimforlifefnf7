@@ -427,21 +427,19 @@ export default function Index() {
         id="support"
         className="relative py-16 sm:py-24 md:py-40 lg:py-48 overflow-hidden"
       >
-        {/* Background decoration with smoothened yellow gradient */}
+        {/* Background decoration - subtle cyan gradient */}
         <div className="absolute inset-0 -z-10">
-          <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-gradient-to-tr from-accent/18 via-accent/10 to-transparent rounded-full blur-[100px]" />
-          <div className="absolute top-0 right-1/3 w-[450px] h-[450px] bg-gradient-to-br from-accent/10 via-accent/5 to-transparent rounded-full blur-[100px]" />
+          <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-gradient-to-tr from-accent/10 via-accent/5 to-transparent rounded-full blur-[120px]" />
+          <div className="absolute top-0 right-1/3 w-[450px] h-[450px] bg-gradient-to-br from-accent/8 via-accent/3 to-transparent rounded-full blur-[120px]" />
         </div>
 
-        <div className="container px-4 sm:px-0">
+        <div className="container">
           <div className="mx-auto max-w-3xl text-center">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-6 sm:mb-8 tracking-tighter">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-6 sm:mb-8 tracking-tight">
               Need Help?
             </h2>
-            <p className="text-base sm:text-lg md:text-xl text-foreground/75 leading-relaxed mb-10 sm:mb-12 font-medium">
-              Our dedicated support team is here to assist you 24/7. Contact us
-              anytime on WhatsApp or Telegram for quick, professional
-              assistance.
+            <p className="text-base sm:text-lg text-foreground/70 leading-relaxed mb-10 sm:mb-12 font-medium">
+              Our dedicated support team is available 24/7 to help you. Reach out on WhatsApp or Telegram for quick, reliable assistance.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center gap-4 w-full justify-center max-w-2xl mx-auto">
