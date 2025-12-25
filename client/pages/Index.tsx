@@ -237,13 +237,13 @@ export default function Index() {
         id="buy"
         className="relative py-16 sm:py-24 md:py-40 lg:py-48 overflow-hidden"
       >
-        {/* Background decoration with smoothened yellow gradient */}
+        {/* Background decoration - subtle cyan gradient */}
         <div className="absolute inset-0 -z-10">
-          <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-gradient-to-br from-accent/25 via-accent/12 to-transparent rounded-full blur-[100px]" />
-          <div className="absolute bottom-0 left-1/4 w-[450px] h-[450px] bg-gradient-to-tr from-accent/15 via-accent/8 to-transparent rounded-full blur-[100px]" />
+          <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-gradient-to-br from-accent/10 via-accent/5 to-transparent rounded-full blur-[120px]" />
+          <div className="absolute bottom-0 left-1/4 w-[450px] h-[450px] bg-gradient-to-tr from-accent/8 via-accent/3 to-transparent rounded-full blur-[120px]" />
         </div>
 
-        <div className="container px-4 sm:px-0">
+        <div className="container">
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-8 sm:mb-10 tracking-tighter">
               Get Your eSIM Today
