@@ -59,8 +59,8 @@ export default function Index() {
                 <div className="flex items-start gap-3">
                   <Check className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
                   <div>
-                    <p className="font-semibold text-foreground mb-1">Works on ALL Non-PTA Phones</p>
-                    <p className="text-sm text-foreground/70">Full compatibility with international devices • No PTA restrictions • Global support</p>
+                    <p className="font-black text-foreground mb-1">Works on ALL Non-PTA Phones</p>
+                    <p className="text-sm text-foreground/70 font-bold">Full compatibility with international devices • No PTA restrictions • Global support</p>
                   </div>
                 </div>
               </div>
