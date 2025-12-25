@@ -120,23 +120,18 @@
     min-height: 100vh;
   }
 
-  /* Light mode gradient background */
+  /* Light mode clean background */
   :root body {
-    background: linear-gradient(
-      135deg,
-      hsl(var(--background)) 0%,
-      hsl(0 0% 96%) 100%
-    );
+    background: hsl(var(--background));
   }
 
-  /* Dark mode gradient background with cyan accent - subtle and professional */
+  /* Dark mode clean professional background */
   .dark body {
     background: linear-gradient(
       135deg,
-      hsl(var(--background)) 0%,
-      hsl(205 50% 5%) 40%,
-      hsl(205 50% 6%) 70%,
-      hsla(185, 80%, 50%, 0.04) 100%
+      hsl(210 45% 3.5%) 0%,
+      hsl(210 42% 4.5%) 50%,
+      hsl(210 45% 3.8%) 100%
     );
   }
 
