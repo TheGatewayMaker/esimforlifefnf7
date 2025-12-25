@@ -322,24 +322,24 @@ export default function Index() {
       <section id="buy" className="relative py-16 sm:py-24 md:py-32 overflow-hidden">
         <div className="container">
           <div className="mx-auto max-w-3xl text-center">
-            <p className="text-xs font-semibold text-accent uppercase tracking-widest mb-4">Ready to Get Connected?</p>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8">Get Your eSIM Today</h2>
+            <p className="text-xs font-black text-accent uppercase tracking-widest mb-4">Ready to Get Connected?</p>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black mb-8">Get Your eSIM Today</h2>
 
             <div className="mb-8">
               <div className="inline-block">
-                <p className="text-5xl sm:text-6xl font-bold text-accent mb-3">999 PKR</p>
-                <p className="text-sm font-semibold text-foreground/70 uppercase tracking-widest">One-time Purchase</p>
+                <p className="text-5xl sm:text-6xl font-black text-accent mb-3">999 PKR</p>
+                <p className="text-sm font-black text-foreground/70 uppercase tracking-widest">One-time Purchase</p>
               </div>
             </div>
 
             {/* Trust Signals */}
             <div className="mb-10 p-5 rounded border border-accent/20 mx-auto w-fit bg-accent/8">
-              <p className="text-sm sm:text-base font-semibold text-accent">
+              <p className="text-sm sm:text-base font-black text-accent">
                 ✓ 150+ Countries • ✓ Non-PTA Compatible • ✓ Lifetime Validity
               </p>
             </div>
 
-            <p className="text-base sm:text-lg text-foreground/70 max-w-2xl mx-auto mb-10 leading-relaxed">
+            <p className="text-base sm:text-lg text-foreground/70 max-w-2xl mx-auto mb-10 leading-relaxed font-bold">
               Simple, secure purchase process. Our support team will guide you through setup and activation. Global connectivity with lifetime validity guaranteed.
             </p>
 
