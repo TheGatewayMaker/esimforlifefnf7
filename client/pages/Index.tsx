@@ -367,8 +367,8 @@ export default function Index() {
       {/* Support Section */}
       <section id="support" className="relative py-16 sm:py-24 md:py-32 overflow-hidden">
         <div className="container">
-          <div className="mx-auto max-w-3xl text-center">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black mb-6">Need Help?</h2>
+          <div className="mx-auto max-w-4xl text-center">
+            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black mb-6">Need Help?</h2>
             <p className="text-base sm:text-lg text-foreground/70 mb-10 leading-relaxed font-bold">
               Our dedicated support team is available 24/7 to help you. Reach out on WhatsApp or Telegram for quick, reliable assistance.
             </p>
