@@ -86,12 +86,12 @@ export default function Index() {
             <div>
               {/* Price Card */}
               <div className="mb-10 p-8 sm:p-10 rounded border border-accent/20 bg-accent/8">
-                <p className="text-xs font-semibold text-foreground/60 uppercase tracking-widest mb-4">Lifetime Price</p>
+                <p className="text-xs font-black text-foreground/60 uppercase tracking-widest mb-4">Lifetime Price</p>
                 <div className="mb-3">
-                  <span className="text-6xl sm:text-7xl font-bold text-accent">999</span>
-                  <span className="text-3xl sm:text-4xl font-semibold text-foreground ml-2">PKR</span>
+                  <span className="text-6xl sm:text-7xl font-black text-accent">999</span>
+                  <span className="text-3xl sm:text-4xl font-black text-foreground ml-2">PKR</span>
                 </div>
-                <p className="text-sm sm:text-base text-foreground/70">One-time purchase • Lifetime validity</p>
+                <p className="text-sm sm:text-base text-foreground/70 font-bold">One-time purchase • Lifetime validity</p>
               </div>
 
               {/* Stats Grid */}
