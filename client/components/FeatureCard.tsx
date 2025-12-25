@@ -20,10 +20,10 @@ export default function FeatureCard({
 
         {/* Text content */}
         <div className="flex-1">
-          <h3 className="text-base sm:text-lg font-semibold tracking-tight mb-3 text-foreground">
+          <h3 className="text-base sm:text-lg font-black tracking-tight mb-3 text-foreground">
             {title}
           </h3>
-          <p className="text-sm text-foreground/70 leading-relaxed">
+          <p className="text-sm text-foreground/70 leading-relaxed font-bold">
             {description}
           </p>
         </div>
