@@ -45,7 +45,7 @@ export default function Index() {
               </h1>
 
               {/* Subheading */}
-              <p className="text-2xl sm:text-3xl font-black text-accent mb-8">
+              <p className="text-3xl sm:text-4xl lg:text-5xl font-black text-accent mb-8">
                 Zero Expiry
               </p>
 
