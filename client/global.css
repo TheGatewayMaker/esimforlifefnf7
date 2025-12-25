@@ -197,6 +197,48 @@
     background: rgba(61, 207, 220, 0.12);
     border-color: rgba(61, 207, 220, 0.6);
   }
+
+  /* Premium stat cards for hero section */
+  .stat-card-premium {
+    @apply flex flex-col items-start rounded-xl border p-5 sm:p-6 text-center transition-all duration-300 h-full;
+    background: rgba(61, 207, 220, 0.05);
+    border-color: rgba(61, 207, 220, 0.25);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .stat-card-premium:hover {
+    @apply -translate-y-2;
+    background: rgba(61, 207, 220, 0.08);
+    border-color: rgba(61, 207, 220, 0.4);
+    box-shadow: 0 8px 20px rgba(61, 207, 220, 0.15);
+  }
+
+  /* Benefit cards for benefits section */
+  .benefit-card {
+    @apply relative rounded-xl border p-7 sm:p-8 md:p-9 transition-all duration-300 h-full;
+    background: rgba(61, 207, 220, 0.04);
+    border-color: rgba(61, 207, 220, 0.2);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  }
+
+  .benefit-card:hover {
+    @apply -translate-y-2;
+    background: rgba(61, 207, 220, 0.08);
+    border-color: rgba(61, 207, 220, 0.35);
+    box-shadow: 0 12px 24px rgba(61, 207, 220, 0.12);
+  }
+
+  .benefit-icon {
+    @apply flex h-12 w-12 items-center justify-center rounded-lg text-accent mb-4 transition-all duration-300;
+    background: rgba(61, 207, 220, 0.12);
+    border: 1px solid rgba(61, 207, 220, 0.25);
+  }
+
+  .benefit-card:hover .benefit-icon {
+    @apply scale-110;
+    background: rgba(61, 207, 220, 0.15);
+  }
+
   .stat {
     @apply flex flex-col items-center justify-center rounded-lg border p-6 text-center transition-all duration-300 h-full min-h-[140px] md:min-h-[160px];
     background: rgba(61, 207, 220, 0.05);
@@ -210,12 +252,15 @@
     border-color: rgba(61, 207, 220, 0.4);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   }
+
   .stat-label {
     @apply text-xs text-foreground/70 tracking-widest font-bold uppercase;
   }
+
   .stat-value {
     @apply mt-3 text-2xl md:text-3xl font-black text-accent;
   }
+
   .feature-mini {
     @apply inline-flex items-center gap-3 rounded-lg border px-4 py-3 text-sm font-semibold text-foreground transition-all duration-300 shadow-sm hover:shadow-md;
     background: rgba(61, 207, 220, 0.06);
@@ -227,6 +272,7 @@
     background: rgba(61, 207, 220, 0.1);
     border-color: rgba(61, 207, 220, 0.4);
   }
+
   .step {
     @apply relative rounded-lg border p-5 md:p-6 font-medium leading-relaxed transition-all duration-300 shadow-sm hover:shadow-md;
     background: rgba(61, 207, 220, 0.05);
@@ -238,9 +284,11 @@
     background: rgba(61, 207, 220, 0.08);
     border-color: rgba(61, 207, 220, 0.4);
   }
+
   .link {
     @apply text-accent hover:text-accent font-semibold transition-colors duration-200 hover:underline;
   }
+
   .price-badge {
     @apply inline-flex items-center gap-2 rounded-lg bg-accent px-5 py-2.5 font-bold text-sm transition-all duration-300 hover:-translate-y-1 text-background shadow-lg hover:shadow-xl;
   }
