@@ -24,10 +24,10 @@ export default function Header() {
 
   return (
     <header
-      className="sticky top-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-background/85 border-b border-accent/30"
+      className="sticky top-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-background/80 border-b border-accent/20"
       style={{
         boxShadow:
-          "0 4px 12px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 215, 0, 0.1)",
+          "0 2px 8px rgba(0, 0, 0, 0.15)",
       }}
     >
       <div className="container px-4 sm:px-6 lg:px-8 flex items-center justify-between py-3 sm:py-4 md:py-5">
