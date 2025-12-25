@@ -243,19 +243,19 @@ export default function Index() {
               <div className="grid sm:grid-cols-2 gap-4 mb-8">
                 <div className="feature-mini">
                   <Gift className="h-4 w-4 flex-shrink-0" />
-                  <span className="text-sm">500MB per referral</span>
+                  <span className="text-sm font-bold">500MB per referral</span>
                 </div>
                 <div className="feature-mini">
                   <Shuffle className="h-4 w-4 flex-shrink-0" />
-                  <span className="text-sm">Bonus scratch cards</span>
+                  <span className="text-sm font-bold">Bonus scratch cards</span>
                 </div>
                 <div className="feature-mini">
                   <Share2 className="h-4 w-4 flex-shrink-0" />
-                  <span className="text-sm">Unlimited potential</span>
+                  <span className="text-sm font-bold">Unlimited potential</span>
                 </div>
                 <div className="feature-mini">
                   <Shield className="h-4 w-4 flex-shrink-0" />
-                  <span className="text-sm">Secure & transparent</span>
+                  <span className="text-sm font-bold">Secure & transparent</span>
                 </div>
               </div>
 
